@@ -9,12 +9,12 @@ class App extends Component{
   render(){
     return(
       <div className='App'>
-        {/* <Greet/>
-        <Welcome/> */}
+        <Greet/>
+        <Welcome/>
         {/* <Message/> */}
 
         {/* DO & Dont's with state and setState */}
-        <Counter/>
+        {/* <Counter/> */}
 
         
         {/* This show that components are reusable */}
@@ -22,15 +22,16 @@ class App extends Component{
         {/* <Greet name="Yash" heroName="IronMan">
           <p>This child is fan of IronMan</p>
         </Greet>
+        <Greet name = "David" heroName="ShaktiMan"/> */}
         <Greet name="Surabhi" heroName="WonderWoman">
-          <button>Action</button>
+          {/* <button>Action</button> */}
         </Greet>
-        <Greet name = "David" heroName="ShaktiMan"/>
-
         <Welcome name="Yash" heroName="IronMan"/>
-        <Welcome name="Surabhi" heroName="WonderWoman"/>
+        {/* <Welcome name="Surabhi" heroName="WonderWoman"/>
         <Welcome name = "David" heroName="ShaktiMan"/> */}
         {/* <Hello/> */}
+
+       
       </div>
     );
   }
