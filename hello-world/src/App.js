@@ -9,6 +9,7 @@ import FunctionClick from './components/FunctionalClick';
 import ClassClick from './components/ClassClick';
 import EventBind from './components/EventBind';
 import ParentComponent from './components/ParentComponent';
+import UserGreeting from './components/UserGreeting';
 class App extends Component{
   render(){
     return(
@@ -43,7 +44,9 @@ class App extends Component{
 
         {/* <EventBind/> */}
 
-        <ParentComponent/>
+        {/* <ParentComponent/> */}
+
+        <UserGreeting/>
        
       </div>
     );
