@@ -8,6 +8,7 @@ import Counter from './components/Counter';
 import FunctionClick from './components/FunctionalClick';
 import ClassClick from './components/ClassClick';
 import EventBind from './components/EventBind';
+import ParentComponent from './components/ParentComponent';
 class App extends Component{
   render(){
     return(
@@ -40,8 +41,9 @@ class App extends Component{
 
         {/* Binding Event Handlers */}
 
-        <EventBind/>
+        {/* <EventBind/> */}
 
+        <ParentComponent/>
        
       </div>
     );
